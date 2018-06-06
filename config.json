@@ -1,0 +1,60 @@
+{
+  "name": "Stanford Online Screening Form - Mackey Lab",
+
+  "namespace":"Stanford\\OSF",
+
+  "description": "A module for screening incoming survey participants",
+
+  "versions": [
+    { "0.1": "Initial Development Version" }
+  ],
+
+  "authors": [
+    {
+      "name": "Andy Martin",
+      "email": "andy123@stanford.edu",
+      "institution": "Stanford University"
+    }
+  ],
+
+  "permissions": [
+    "redcap_survey_page_top",
+    "redcap_survey_complete",
+    "redcap_every_page_top",
+    "redcap_every_page_before_render",
+    "redcap_save_record"
+  ],
+
+  "links": {
+    "control-center": [
+      {
+        "name": "Global OSF Config",
+        "icon": "gear",
+        "url": "config_editor"
+      }
+    ],
+    "project": [
+      {
+        "name": "OSF Config",
+        "icon": "gear",
+        "url": "config_editor"
+      },
+      {
+        "name": "OSF Test",
+        "icon": "gear",
+        "url": "test.php"
+      },
+      {
+        "name": "OSF Intake",
+        "icon": "gear",
+        "url": "intake.php"
+      }
+    ]
+  },
+
+  "system-settings": [
+  ],
+
+  "project-settings": [
+  ]
+}
